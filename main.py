@@ -18,7 +18,6 @@ last_command_time = {}
 last_message = {}
 ai = deepmind.DeepMind('AIzaSyCQyNOv4RcZF8os4wRUuRBNqabcROdIQKI')
 
-
 # Command /start
 @bot.message_handler(commands=['start'])
 def start_message(message):
